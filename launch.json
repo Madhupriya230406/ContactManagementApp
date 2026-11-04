@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Contact Management System (Swing GUI)",
+            "request": "launch",
+            "mainClass": "Main"
+        },
+        {
+            "type": "java",
+            "name": "Launch Contact Management App (CLI Mode)",
+            "request": "launch",
+            "mainClass": "Main",
+            "args": ["--cli"],
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
+            "name": "Run Verification Test Suite",
+            "request": "launch",
+            "mainClass": "test.AppVerificationTest",
+            "console": "integratedTerminal"
+        }
+    ]
+}
